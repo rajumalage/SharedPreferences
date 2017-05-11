@@ -1,6 +1,5 @@
 package com.example.india.sharedpreferences;
 
-
 import android.Manifest;
 import android.app.Activity;
 import android.content.Context;

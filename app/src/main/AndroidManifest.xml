@@ -53,9 +53,7 @@
             android:value="AIzaSyBtof4ht05d9znW0Hzxvq5oSscO8odCnMo" />
         <activity android:name=".UserLocation"
             android:screenOrientation="portrait"/>
-        <activity android:name=".BoardingPass"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".BoardingActivity"
+        <activity android:name=".BoardingPassActivity"
             android:screenOrientation="portrait"/>
     </application>
 

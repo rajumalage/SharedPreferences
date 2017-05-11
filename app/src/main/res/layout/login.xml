@@ -14,6 +14,7 @@
         android:gravity="center"
         android:textSize="40dp"
         android:fontFamily="serif"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:background="@color/colorAccent"
         tools:layout_editor_absoluteY="7dp"
         tools:layout_editor_absoluteX="-4dp" />
@@ -22,36 +23,41 @@
         android:id="@+id/editUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:textSize="15dp"
-        android:fontFamily="serif"
-        android:inputType="textPersonName"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="160dp"
         android:layout_marginLeft="87dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Email-ID/Phone No."
+        android:inputType="textPersonName"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
         android:fontFamily="serif"
-        android:textSize="15dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:hint="Password"
         android:inputType="textPassword"
-        android:layout_marginLeft="0dp"
+        android:textSize="15dp"
         app:layout_constraintLeft_toLeftOf="@+id/editUserName"
-        android:layout_marginTop="35dp"
         app:layout_constraintTop_toBottomOf="@+id/editUserName" />
 
     <Button
         android:id="@+id/sgBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SignUp"
+        android:text="SignIn"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:fontFamily="serif"
-        android:layout_marginLeft="-16dp"
+        android:layout_marginLeft="-27dp"
         app:layout_constraintLeft_toLeftOf="@+id/editPass"
         android:layout_marginTop="64dp"
         app:layout_constraintTop_toBottomOf="@+id/editPass" />
@@ -61,9 +67,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Exit"
-        android:layout_marginRight="0dp"
+        android:layout_marginRight="-19dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
         app:layout_constraintRight_toRightOf="@+id/editPass"
         app:layout_constraintBottom_toBottomOf="@+id/sgBtn"
         android:layout_marginBottom="0dp" />
+
+    <Button
+        android:id="@+id/edtReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="61dp"
+        android:text="SignUp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/sgBtn"
+        app:layout_constraintRight_toRightOf="@+id/exBtn"
+        tools:layout_editor_absoluteY="414dp" />
 
 </android.support.constraint.ConstraintLayout>

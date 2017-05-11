@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.*;
 
-
 public class Change extends Activity implements OnClickListener {
     EditText editOldPass,editNewPass,editCPass;
     Button sgBtn,exBtn;

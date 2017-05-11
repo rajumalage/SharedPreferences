@@ -16,14 +16,12 @@ import android.widget.Toast;
 public class Registration extends Activity implements OnClickListener
 {
     private SharedPreferences sp;
-
     Intent i;
     Button SButton,EButton;
     EditText editUserName,editPass,editCPass,editDob,editContact,editEmail;
     String user,pass,cpass,chk,dob,cont,email;
     CheckBox checkBox;
     String stat="a";
-
     @Override
     public void onCreate(Bundle savedInstanceState)
     {

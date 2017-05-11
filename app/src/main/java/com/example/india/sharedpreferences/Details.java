@@ -9,7 +9,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-
 public class Details extends Activity implements OnClickListener {
     private SharedPreferences sp;
     String us,ps,dob,cont,email;
@@ -18,7 +17,6 @@ public class Details extends Activity implements OnClickListener {
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.details);
         sp=this.getSharedPreferences("Login", MODE_WORLD_READABLE);
@@ -39,18 +37,10 @@ public class Details extends Activity implements OnClickListener {
         editEmail.setText(email);
         sgBtn=(Button)findViewById(R.id.sgBtn);
         sgBtn.setOnClickListener(this);
-
     }
-
-
     public void onClick(View arg0) {
-
         Intent i;
         i=new Intent(this,Login.class);
         startActivity(i);
-
-
     }
-
-
 }
