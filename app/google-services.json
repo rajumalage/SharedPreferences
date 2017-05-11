@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14728057243",
+    "firebase_url": "https://srishti-27091.firebaseio.com",
+    "project_id": "srishti-27091",
+    "storage_bucket": "srishti-27091.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14728057243:android:81c6b684ca320213",
+        "android_client_info": {
+          "package_name": "com.example.india.sharedpreferences"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14728057243-fdp8p4jvvbeabaermtvhf7hf0ojc7hvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO7LE23O0fzg82f5-aDDGW6JOD3aX1R3c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

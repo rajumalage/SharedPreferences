@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:layout_width="386dp"
+        android:layout_height="82dp"
+        android:text="USER DETAILS"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:fontFamily="serif"
+        android:textSize="40dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="141dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:inputType="textPassword"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editUserName"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editUserName" />
+
+    <Button
+        android:id="@+id/sgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="21dp"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/editDob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editPass"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editPass" />
+
+    <EditText
+        android:id="@+id/editCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editDob"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editDob" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:fontFamily="serif"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="-20dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editCont"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editCont" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="31dp"
+        android:layout_marginTop="139dp"
+        android:text="User Name"
+        app:layout_constraintRight_toLeftOf="@+id/editUserName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="33dp"
+        android:text="Password"
+        app:layout_constraintRight_toLeftOf="@+id/editPass"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="45dp"
+        android:text="D.O.B"
+        app:layout_constraintRight_toLeftOf="@+id/editDob"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="34dp"
+        android:text="Mobile No."
+        app:layout_constraintRight_toLeftOf="@+id/editCont"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="49dp"
+        android:layout_marginTop="28dp"
+        android:text="Email ID"
+        app:layout_constraintRight_toLeftOf="@+id/editEmail"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+
+</android.support.constraint.ConstraintLayout>
